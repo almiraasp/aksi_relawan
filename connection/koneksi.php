@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "db";
 $user = "root";
 $pass = "";
 $db   = "aksi_relawan";
