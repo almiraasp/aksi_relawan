@@ -193,7 +193,7 @@ function ambil_gambarr($id)
     return '';
 }
 
-$koneksi = mysqli_connect("localhost", "root", "", "aksi_relawan");
+$koneksi = mysqli_connect("db", "appuser", "apppass", "aksi_relawan");
 if (!$koneksi) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
