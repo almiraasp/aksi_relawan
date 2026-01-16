@@ -4,15 +4,23 @@ cek_login();
 include_once("header.php"); ?>
 
 <!-- Section Donasi -->
-<div class="position-relative text-white"
-    style="background-image: url('<?php echo ambil_gambar("11") ?>'); 
-            background-size: cover; 
-            background-position: center; 
-            background-attachment: fixed; 
-            height: 50vh;">
-    <!-- Overlay Hitam Transparan -->
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+<div class="position-relative text-white" style="height: 50vh; overflow: hidden;">
+
+    <!-- GAMBAR -->
+    <img
+        src="/img/bgdonasi.jpg"
+        alt="Hero Image"
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="object-fit: cover;">
+
+    <!-- OVERLAY HITAM -->
+    <div
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="background-color: rgba(0, 0, 0, 0.5);">
+    </div>
+
 </div>
+
 
 <div class="container bg-white rounded-4 shadow-lg py-4 px-3 position-relative"
     style="margin-top: -250px; z-index: 3; max-width: 1000px; margin-bottom: 80px;">
@@ -24,7 +32,7 @@ include_once("header.php"); ?>
         <div class="border rounded p-4 mb-5">
 
             <div class="text-center">
-                <img src="<?php echo ambil_gambar('57') ?>" class="img-fluid rounded mb-3" alt="Relawan Donasi" style="max-width: 100%; height: auto;">
+                <img src="/img/donasi.jpg" class="img-fluid rounded mb-3" alt="Relawan Donasi" style="max-width: 100%; height: auto;">
             </div>
             <p class="mb-1 text-start" style="font-size: 1.3rem;"><strong><em><?php echo ambil_isi("36") ?></em></strong></p>
             <p class="mb-0 text-justify" style="text-align: justify;"><?php echo ambil_isi("37") ?></p>

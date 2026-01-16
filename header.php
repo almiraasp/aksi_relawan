@@ -58,7 +58,8 @@ include_once("connection/fungsi.php");
     <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-ungu-biru sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold fst-italic d-flex align-items-center gap-2" href="index.php">
-                <img src="<?php echo ambil_gambar('12') ?>" alt="Logo" height="35" />AksiRelawan.org
+                <img src="img/logoP.png" alt="Logo" height="35">
+                <span>AksiRelawan.org</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>

@@ -34,8 +34,8 @@
             <div class="col-md-4 text-md-end text-center">
                 <h6 class="fw-bold" style="color: white !important;">Didukung oleh:</h6>
                 <div class="d-inline-flex gap-2">
-                    <img src="<?php echo ambil_gambar("58") ?>" class="mb-2" alt="Paragon 1" style="width: 120px; height: auto;" />
-                    <img src="<?php echo ambil_gambar("59") ?>" class="mb-2" alt="Paragon 2" style="width: 120px; height: auto;" />
+                    <img src="/img/paragon.jpg" class="mb-2" alt="Paragon 1" style="width: 120px; height: auto;" />
+                    <img src="/img/kemenkes.jpg" class="mb-2" alt="Paragon 2" style="width: 120px; height: auto;" />
                 </div>
             </div>
 

@@ -9,7 +9,7 @@ $keyword = isset($_POST['keyword']) ? strtolower(trim($_POST['keyword'])) : '';
         <div class="col">
             <a href="event1.php" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">
-                    <img src="<?= ambil_gambarr("6") ?>" class="card-img-top" alt="MOMBEE" style="height: 180px; object-fit: cover;">
+                    <img src="/img/event1.jpeg" class="card-img-top" alt="MOMBEE" style="height: 180px; object-fit: cover;">
                     <div class="card-body">
                         <span class="badge bg-gradient-ungu-biru mb-2">Event</span>
                         <h6 class="card-title fw-semibold fs-6 mb-1"><?= ambil_judull(6) ?></h6>
@@ -25,7 +25,7 @@ $keyword = isset($_POST['keyword']) ? strtolower(trim($_POST['keyword'])) : '';
         <div class="col">
             <a href="event2.php" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">
-                    <img src="<?= ambil_gambarr("7") ?>" class="card-img-top" alt="Jejak Semesta" style="height: 180px; object-fit: cover;">
+                    <img src="/img/event2.jpg" class="card-img-top" alt="Jejak Semesta" style="height: 180px; object-fit: cover;">
                     <div class="card-body">
                         <span class="badge bg-gradient-ungu-biru mb-2">Event</span>
                         <h6 class="card-title fw-semibold fs-6 mb-1"><?= ambil_judull(7) ?></h6>
@@ -41,7 +41,7 @@ $keyword = isset($_POST['keyword']) ? strtolower(trim($_POST['keyword'])) : '';
         <div class="col">
             <a href="event3.php" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">
-                    <img src="<?= ambil_gambarr("8") ?>" class="card-img-top" alt="Bincang Literasi" style="height: 180px; object-fit: cover;">
+                    <img src="/img/event3.jpg" class="card-img-top" alt="Bincang Literasi" style="height: 180px; object-fit: cover;">
                     <div class="card-body">
                         <span class="badge bg-gradient-ungu-biru mb-2">Event</span>
                         <h6 class="card-title fw-semibold fs-6 mb-1"><?= ambil_judull(8) ?></h6>
@@ -57,7 +57,7 @@ $keyword = isset($_POST['keyword']) ? strtolower(trim($_POST['keyword'])) : '';
         <div class="col">
             <a href="event4.php" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">
-                    <img src="<?= ambil_gambarr("9") ?>" class="card-img-top" alt="Workshop" style="height: 180px; object-fit: cover;">
+                    <img src="/img/event4.jpg" class="card-img-top" alt="Workshop" style="height: 180px; object-fit: cover;">
                     <div class="card-body">
                         <span class="badge bg-gradient-ungu-biru mb-2">Event</span>
                         <h6 class="card-title fw-semibold fs-6 mb-1"><?= ambil_judull(9) ?></h6>

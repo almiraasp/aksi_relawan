@@ -4,8 +4,12 @@
     <div class="row">
 
         <div class="col-lg-8" style="height: 100vh; overflow-y: auto;">
-            <div class="ratio ratio-16x9 mb-4" style="border-radius: 8px; overflow: hidden;">
-                <img src="<?php echo ambil_gambar('60'); ?>" class="img-fluid w-100 h-100 object-fit-cover" alt="Trash Hero">
+            <div class="ratio ratio-16x9 mb-4 rounded overflow-hidden">
+                <div>
+                    <img src="/img/event4.jpg"
+                        alt="Trash Hero"
+                        style="width:100%; height:100%; object-fit:cover;">
+                </div>
             </div>
 
             <div class="container py-4">

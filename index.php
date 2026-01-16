@@ -12,21 +12,29 @@ include_once("header.php"); ?>
 
 <!-- HOME HALAMAN 1 -->
 <!-- Hero Section -->
-<div class="hero position-relative text-white"
-    style="background-image: url('<?php echo ambil_gambar("11") ?>'); 
-           background-size: cover; 
-           background-position: center; 
-           background-attachment: fixed; 
-           height: 50vh;">
-    <div class="position-absolute top-0 start-0 w-100 h-100"
+<div class="hero position-relative text-white" style="height: 50vh; overflow: hidden;">
+
+    <!-- GAMBAR HERO -->
+    <img
+        src="/img/hero.jpg"
+        alt="Hero Image"
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="object-fit: cover;">
+
+    <!-- OVERLAY HITAM -->
+    <div
+        class="position-absolute top-0 start-0 w-100 h-100"
         style="background-color: rgba(0, 0, 0, 0.5);">
     </div>
-    <div class="position-relative text-center"
-        style="z-index: 2; top: 50%; transform: translateY(-50%);">
-        <h1 class="display-5 fw-bold"><?php echo ambil_judul("10") ?></h1>
-        <p class="lead"><?php echo ambil_kutipan("10") ?></p>
-        <a href="cariaktivitas.php" class="btn bg-gradient-ungu-biru btn-lg mt-3"><?php echo ambil_isi("10") ?></a>
-    </div>
+
+</div>
+
+<div class="position-relative text-center text-white"
+    style="z-index: 2; top: 50%; transform: translateY(-50%); margin-top: -35px;">
+    <h1 class="display-5 fw-bold"><?php echo ambil_judul("10") ?></h1>
+    <p class="lead"><?php echo ambil_kutipan("10") ?></p>
+    <a href="cariaktivitas.php" class="btn bg-gradient-ungu-biru btn-lg mt-3"><?php echo ambil_isi("10") ?></a>
+</div>
 </div>
 
 <!-- Statistik -->
@@ -145,7 +153,7 @@ include_once("header.php"); ?>
         <!-- Card 2 -->
         <div class="col">
             <div class="card h-100 border bg-white text-center p-3">
-                <img src="<?php echo ambil_gambar("15") ?>" alt="Teruntuk Project" class="mx-auto mb-3" style="width: 100px; height: 100px; object-fit: contain;">
+                <img src="/img/testimoni2.jpg" alt="Teruntuk Project" class="mx-auto mb-3" style="width: 100px; height: 100px; object-fit: contain;">
                 <h6 class="fw-semibold bg-gradient-ungu-biru rounded py-1 px-2 d-inline-block"><?php echo ambil_kutipan("21") ?></h6>
                 <p class="text-muted small mb-0"><?php echo ambil_isi("18") ?></p>
             </div>
@@ -153,7 +161,7 @@ include_once("header.php"); ?>
         <!-- Card 3 -->
         <div class="col">
             <div class="card h-100 border bg-white text-center p-3">
-                <img src="<?php echo ambil_gambar("16") ?>" alt="TGR" class="mx-auto mb-3" style="width: 100px; height: 100px; object-fit: contain;">
+                <img src="/img/testimoni3.jpg" alt="TGR" class="mx-auto mb-3" style="width: 100px; height: 100px; object-fit: contain;">
                 <h6 class="fw-semibold bg-gradient-ungu-biru rounded py-1 px-2 d-inline-block"><?php echo ambil_isi("21") ?></h6>
                 <p class="text-muted small mb-0"><?php echo ambil_isi("19") ?></p>
             </div>
