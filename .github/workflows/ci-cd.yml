@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Docker Image
-        run: docker build -t webku .
+        run: docker build -t aksi_relawan .
 
   deploy:
     needs: build
@@ -29,6 +29,6 @@ jobs:
             cd /home/web
             git pull origin main
             docker build -t aksi_relawan .
-            docker stop web || true
-            docker rm web || true
-            docker run -d --name aksi_relawan -p 80:80 aksi_relawan
+            docker stop aksi_relawan || true
+            docker rm aksi_relawan || true
+            docker run -d --name aksi_relawan -p 8086:80 aksi_relawan
