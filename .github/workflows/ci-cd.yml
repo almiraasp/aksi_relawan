@@ -28,7 +28,7 @@ jobs:
           script: |
             cd /home/web
             git pull origin main
-            docker build -t webku .
+            docker build -t aksi_relawan .
             docker stop web || true
             docker rm web || true
-            docker run -d --name web -p 80:80 webku
+            docker run -d --name aksi_relawan -p 80:80 aksi_relawan
